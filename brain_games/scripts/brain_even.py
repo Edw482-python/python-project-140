@@ -2,8 +2,8 @@ from brain_games.cli_aux import welcome_user_aux
 import random
 
 
-def main():
-    nombre = welcome_user_aux()
+def main():    
+    nombre = welcome_user_aux('even')
     for q in range(3):
         numero = random.randint(1, 100)
         print(f'Question: {numero}')
