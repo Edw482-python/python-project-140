@@ -8,6 +8,8 @@ def welcome_user_aux(select_game):
     if select_game == 'even':
         print(f'hello, {name}! Answer "yes" if the number is even, otherwise answer "no".')
     if select_game == 'calc':
-        print(f'hello, {name}! What is the result of the expression?')        
+        print(f'hello, {name}! What is the result of the expression?')
+    if select_game == 'gcd':
+        print(f'hello, {name}! Find the greatest common divisor of given numbers.')        
     return name
     
