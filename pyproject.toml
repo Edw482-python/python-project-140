@@ -2,12 +2,12 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = "Brain Games es una colección de juegos de consola desarrollados en Python. Cada juego pone a prueba habilidades lógicas y matemáticas del usuario mediante interacción en terminal."
-Autor = "Edward Morales, Ingeniero Electronico y de Telecomunicaciones"
+authors = [
+    {name = "Edward Morales"}
+]
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = [
-    "prompt>=0.4.1",
-]
+dependencies = []
 
 [build-system]
 requires = ["hatchling"]
