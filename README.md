@@ -1,3 +1,7 @@
+
+
+
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Edw482-python/python-project-140/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Edw482-python/python-project-140/actions)
 
@@ -14,6 +18,37 @@ brain-progression (asciinema): https://asciinema.org/a/ODfqpTrVCImuXtNB
 
 brain-prime (asciinema): https://asciinema.org/a/S0lWGxjwWLQBe5FS
 
+
+##  Descripción del proyecto
+
+Brain Games es una colección de juegos de consola desarrollados en Python.  
+Cada juego pone a prueba habilidades lógicas y matemáticas del usuario mediante interacción en terminal.
+
+Los juegos incluidos son:
+
+- ✅ brain-even → determina si un número es par  
+- ✅ brain-calc → resuelve operaciones matemáticas  
+- ✅ brain-gcd → calcula el máximo común divisor  
+- ✅ brain-progression → encuentra el número faltante en una progresión  
+- ✅ brain-prime → identifica números primos  
+
+---
+
+##  Requisitos
+
+- Python 3.10 o superior  
+- uv (gestor de paquetes moderno para Python)  
+- Sistema Linux / WSL recomendado  
+
+---
+
+##  Instalación
+
+Clonar el repositorio:
+
+```bash
+git clone https://github.com/Edw482-python/python-project-140.git
+cd python-project-140
 
 
 
