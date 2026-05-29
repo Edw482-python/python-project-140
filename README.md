@@ -8,4 +8,10 @@ Demo (asciinema): https://asciinema.org/a/JS7PN3K00ZbEBkqk
 
 brain-calc (asciinema): https://asciinema.org/a/fr4rENNPGd4K6OT8
 
+brain-gcd (asciinema): https://asciinema.org/a/qXP1RQUul0Sid67e
+
+brain-progression (asciinema): https://asciinema.org/a/ODfqpTrVCImuXtNB
+
+
+
 

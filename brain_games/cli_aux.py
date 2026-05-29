@@ -10,6 +10,8 @@ def welcome_user_aux(select_game):
     if select_game == 'calc':
         print(f'hello, {name}! What is the result of the expression?')
     if select_game == 'gcd':
-        print(f'hello, {name}! Find the greatest common divisor of given numbers.')        
+        print(f'hello, {name}! Find the greatest common divisor of given numbers.')    
+    if select_game == 'progression':    
+        print(f'hello, {name}! What is the missing number in the progression?')
     return name
     
