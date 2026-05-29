@@ -21,9 +21,6 @@ def main():
             break
     else:
         print(f'Congratulations, {nombre}!')
-        
-
-
 
     if __name__ == "__main__":
         main()

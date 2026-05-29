@@ -13,5 +13,7 @@ def welcome_user_aux(select_game):
         print(f'hello, {name}! Find the greatest common divisor of given numbers.')    
     if select_game == 'progression':    
         print(f'hello, {name}! What is the missing number in the progression?')
+    if select_game == 'prime':
+        print(f'hello, {name}! Answer "yes" if given number is prime. Otherwise answer "no".')
     return name
     
