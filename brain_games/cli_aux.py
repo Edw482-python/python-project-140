@@ -12,7 +12,7 @@ def welcome_user_aux(select_game):
     if select_game == 'gcd':
         print(f'Hello, {name}! Find the greatest common divisor of given numbers.')    
     if select_game == 'progression':    
-        print(f'Hello, {name}! What is the missing number in the progression?')
+        print(f'Hello, {name}! What number is missing in the progression?')
     if select_game == 'prime':
         print(f'Hello, {name}! Answer "yes" if given number is prime. Otherwise answer "no".')
     return name
