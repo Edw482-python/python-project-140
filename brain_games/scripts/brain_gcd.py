@@ -13,7 +13,7 @@ def main():
         if respuesta == str(math.gcd(a, b)):
             print('Correct!')
         else:
-            print(f'is wrong answer ;(. correct answer was {math.gcd(a, b)}.')
+            print(f"is wrong answer ;(. correct answer was {math.gcd(a, b)}. Let's try again, {nombre}!")
             break
     else:
         print(f'Congratulations, {nombre}!')

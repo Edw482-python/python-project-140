@@ -23,7 +23,7 @@ def main():
         elif not es_primo(num) and respuesta_usuario == 'no':
             print('Correct!')
         else:
-            print(f'is wrong answer ;(. correct answer was {"yes" if es_primo(num) else "no"}.')
+            print(f"is wrong answer ;(. correct answer was {'yes' if es_primo(num) else 'no'}. Let's try again, {nombre}!")
             break
     else:
         print(f'Congratulations, {nombre}!')

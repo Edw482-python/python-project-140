@@ -17,7 +17,7 @@ def main():
         if respuesta_usuario == str(respuesta):
             print('Correct!')
         else:
-            print(f'is wrong answer ;(. correct answer was {respuesta}.')
+            print(f"is wrong answer ;(. correct answer was {respuesta}. Let's try again, {nombre}!")
             break
     else:
         print(f'Congratulations, {nombre}!')

@@ -12,7 +12,7 @@ def main():
         if respuesta == str(operaciones(a, b, c)):
             print('Correct!')
         else:
-            print(f'is wrong answer ;(. correct answer was {operaciones(a, b, c)}.')
+            print(f"is wrong answer ;(. correct answer was {operaciones(a, b, c)}. Let's try again, {nombre}!")
             break
     else:
         print(f'Congratulations, {nombre}!')
