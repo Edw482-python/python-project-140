@@ -10,8 +10,13 @@ def main():
         respuesta = input('Your answer: ')
         if numero % 2 == 0 and respuesta.lower() == 'yes' or numero % 2 != 0 and respuesta.lower() == 'no':
             print('Correct!')
-        else:
-            print('Incorrect!')
+        else:            
+            print(f'{respuesta} is wrong answer ;(. correct answer was ', end='')
+            if respuesta.lower() == 'yes':
+                respuesta = 'no'
+            else:
+                respuesta = 'yes'
+            print(f"'{respuesta}'. Let's try again, {nombre}!")
             break
     else:
         print(f'Congratulations, {nombre}!')
